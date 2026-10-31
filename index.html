@@ -133,7 +133,7 @@ footer a{color:var(--muted)}
 .pi-grid{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:start}
 .pi-text{container-type:inline-size}
 .pi-text .bio{font-style:italic;font-size:.85rem;color:#7a7a7a;max-width:none}
-@media (min-width:761px){.pi-text .bio{font-size:min(.9rem,1.98cqi);white-space:nowrap}}
+@media (min-width:1180px){.pi-text .bio{font-size:min(.9rem,1.77cqi);white-space:nowrap}}
 .pi-photo{margin:0}
 .pi-photo img{width:100%;aspect-ratio:4/4.08;object-fit:cover;object-position:50% 40%;border-radius:12px}
 .pi-text h2{font-family:var(--sans);font-weight:800;letter-spacing:-.035em;line-height:1;font-size:clamp(2.2rem,4.6vw,3.4rem);margin:0 0 10px}
@@ -256,6 +256,8 @@ img.anim{width:100%;height:auto;display:block}
 .p-fig img{width:100%;height:auto;display:block;border-radius:6px}
 @media (max-width:860px){.plist li.has-fig{grid-template-columns:56px minmax(0,1fr)}.p-fig{grid-column:2;margin:14px 0 0;max-width:420px}}
 @media (max-width:560px){.plist li.has-fig{grid-template-columns:40px minmax(0,1fr)}}
+.c-links a.c-red{color:#cc0000;border-color:#cc0000}
+.c-links a.c-red:hover{background:#cc0000;color:#fff}
 </style>
 </head>
 <body>
@@ -463,7 +465,7 @@ img.anim{width:100%;height:auto;display:block}
           <div><dt>Office:</dt><dd>601, Engineering Science Building (ESB) 3, IIT Kanpur</dd></div>
           <div><dt>Lab:</dt><dd>615, ESB 3, IIT Kanpur</dd></div>
         </dl>
-        <p class="bio">Akash is from Jaipur. His hobbies include running, reading, and films (recent favorite: Stoner by John Williams).</p>
+        <p class="bio">Akash is from Jaipur. His hobbies include running, reading, and films (recent favorite: Zima Blue, from Love, Death &amp; Robots).</p>
         <p class="links">Further information: <a href="https://scholar.google.co.in/citations?user=uSHt33IAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Akash-Choudhary" target="_blank" rel="noopener" class="l-rg">ResearchGate</a>, <a href="https://www.youtube.com/@AC-MisT/videos" target="_blank" rel="noopener" class="l-yt">Youtube</a></p>
       </div>
     </div>
@@ -504,6 +506,12 @@ img.anim{width:100%;height:auto;display:block}
           <h3>Shashank Choudhary</h3>
           <p class="role">M. Tech Student (2026-)</p>
           <p>Shashank hails from Muzaffarnagar U.P. He did his B. Tech in Chemical Technology from Harcourt Butler Technical University, Kanpur. He is currently learning to model transport processes in porous structures. He enjoys the thrill of cricket, especially as a right-arm fast bowler, and finds joy in traveling and exploring new places.</p>
+        </article>
+        <article class="person">
+          <div class="ph"><img loading="lazy" alt="Rajsundar V" src="assets/p-rajsundar.webp"></div>
+          <h3>Rajsundar V</h3>
+          <p class="role">M. Tech Student</p>
+          <p>Rajsundar V is from Tamil Nadu and completed his B.Tech in Chemical and Electrochemical Engineering at CSIR-Central Electrochemical Research Institute (CSIR-CECRI), Karaikudi. He is currently pursuing his M.Tech at IIT Kanpur. An avid reader of fantasy books and manga (his favorite being A Song of Ice and Fire), he also enjoys the occasional game of basketball.</p>
         </article>
         <article class="person">
           <div class="ph"><img loading="lazy" alt="Prof. Kaju" src="assets/p-kaju.webp"></div>
@@ -604,7 +612,7 @@ img.anim{width:100%;height:auto;display:block}
     <article class="course">
       <p class="c-code">CHE611</p>
       <div><h2>Transport Phenomena</h2><p class="c-term">[2024-2026 Odd]</p>
-        <p class="c-links"><a href="https://heat-simulations.vercel.app/" target="_blank" rel="noopener">Interactive Simulations</a><a href="https://www.youtube.com/@AC-MisT" target="_blank" rel="noopener">Lectures</a></p>
+        <p class="c-links"><a href="https://heat-simulations.vercel.app/" target="_blank" rel="noopener">Interactive Simulations</a><a class="c-red" href="https://www.youtube.com/@AC-MisT" target="_blank" rel="noopener">Lectures</a></p>
         <div class="pdfbox">
           <div class="pdfbar"><span>Commentary</span><button class="pdf-expand" type="button" aria-expanded="false">Expand</button></div>
           <div class="pdfscroll" tabindex="0" aria-label="Commentary, PDF pages"><img loading="lazy" alt="Commentary, page 1 of 5" src="assets/pg-1.webp"><img loading="lazy" alt="Commentary, page 2 of 5" src="assets/pg-2.webp"><img loading="lazy" alt="Commentary, page 3 of 5" src="assets/pg-3.webp"><img loading="lazy" alt="Commentary, page 4 of 5" src="assets/pg-4.webp"><img loading="lazy" alt="Commentary, page 5 of 5" src="assets/pg-5.webp"></div>
